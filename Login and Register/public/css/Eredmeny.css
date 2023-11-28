@@ -1,0 +1,98 @@
+body {
+    background-image: url("/images/leaderboard.jpg");
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color: black;
+}
+
+input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 50px;
+    border-style:hidden;
+    border-radius: 20px;
+    background-color:white;
+}
+
+input:hover {
+    background-color: rgb(91, 87, 87);
+  }
+  
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family:cursive;
+    color:rgb(2, 2, 23);
+    font-size: 30px;
+}
+
+a:hover {
+    color: white;
+}
+
+/*table {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+*/
+
+.teto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.keretes {
+    border: 1px solid #ebe5e59d;
+    border-collapse: collapse;
+    background-color: rgba(50, 55, 55, 0.385);
+    height: 100px;
+    width: 500px;
+    font-size: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.keretes table {
+    border-collapse: collapse;
+    border-radius: 30px;
+    overflow: hidden;
+    
+}
+
+.hide{
+    display: none;
+}
+
+.cella {
+    border: 2px solid #f5eeee;
+    padding: 10px;
+    border-collapse: collapse;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+header {
+    background-color: rgba(61, 53, 53, 0.307);
+    border-style: none;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+
+th, td {
+    height: 10px;
+    width: 50px;
+}

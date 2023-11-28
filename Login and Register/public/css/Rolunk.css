@@ -1,0 +1,59 @@
+header {
+    background-color: rgba(22, 15, 69, 0.392);
+    border-style: none;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-right: 700px;
+  }
+  
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color: rgb(190, 186, 186);
+}
+
+input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 50px;
+    border-style:hidden;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  input:hover {
+    background-color: rgb(91, 87, 87);
+  }
+  
+  a {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    text-decoration: none;
+    color: rgb(70, 152, 211);
+    font-size: 30px;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+  p {
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    color:rgb(227, 221, 221);
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px solid gray;
+    background-color: rgba(196, 196, 196, 0.24);
+  }
+
+  body {
+    background-image: url("/images/rolunk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  

@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color:azure;
+}
+
+#Download {
+
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+}
+
+#Download:hover {
+    border: 1px solid black;
+}
+
+#Tetris {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+    border-color:aliceblue;
+    
+    
+}
+
+#Toltsd {
+    text-align: center;
+    font-size: 25px;
+}
+
+input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 50px;
+    border-style:hidden;
+    border-radius: 20px;
+    background-color: white;
+}
+
+input:hover {
+    background-color: rgb(91, 87, 87);
+  }
+
+a {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    text-decoration: none;
+    color:rgb(163, 163, 237);
+    font-size: 30px;
+}
+
+a:hover {
+    color: white;
+
+}
+header {
+    background-color: rgba(0, 0, 0, 0.337);
+    border-style: none;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+
+body {
+    background-image: url("/images/letolteshatter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#kerekitett{
+    
+    border-color:white;
+}
+

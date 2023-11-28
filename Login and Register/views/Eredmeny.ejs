@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+    <header>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Eredménytábla</title>
+            <meta name="description" content="">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="/css/Eredmeny.css" />
+            <script src="/js/leaderboard.js" defer></script>
+        </head>
+        <body>
+            <div>
+                <nav>
+                    <a href="Fooldal">Főoldal</a>
+                    <a href="Letoltes">Letöltés</a>
+                    <a href="Rolunk">Rólunk</a>
+                    <form action="/logout" method="post">
+
+                        <input type="submit" value="Kijelentkezés"></input>
+
+                    </form>
+                </nav>
+            </div>
+        </header>
+
+        <h1>Eredménytábla</h1>
+        <div class="teto">
+            <table class="keretes" data-leaderboard>
+                <tr>
+                    <th class="cella">Rank</th>
+                    <th class="cella">Név</th>
+                    <th class="cella">Pontszám</th>
+                </tr>
+                <!--
+                    Template
+                -->
+                    <tr class="hide" data-row>
+                        <td class="cella">1</td>
+                        <td class="cella">Valaki</td>
+                        <td class="cella">2</td>
+                    </tr>
+                <!--
+                    Template
+                -->
+            </table>
+        </div>
+    </body>
+</html>

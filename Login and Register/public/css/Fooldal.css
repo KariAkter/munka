@@ -1,0 +1,71 @@
+body {
+  background-image: url("/images/fooldal.jpg");
+  background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+
+#Download {
+
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+}
+
+input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 50px;
+  border-style:hidden;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+input:hover {
+  background-color: rgb(91, 87, 87);
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-family:cursive;
+  color:rgb(30, 30, 104);
+  font-size: 30px;
+}
+a:hover {
+  color: white;
+}
+
+header {
+  background-color: rgba(107, 105, 105, 0.205);
+  border-style: none;
+  border-radius: 20px;
+  margin-left: 700px;
+  margin-right: 700px;
+}
+
+#Logo {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#kacsa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

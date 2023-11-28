@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+    <header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/css/Fooldal.css" />
+        <title>Főoldal</title>
+    </head>
+    <body>
+
+
+        <div>
+            <nav>
+                <a href="Eredmeny">Eredménytábla</a>
+                <a href="Letoltes">Letöltés</a>
+                <a href="Rolunk">Rólunk</a>
+                <form action="/logout" method="post">
+                    <input type="submit" value="Kijelentkezés"></input>
+                </form>
+            </nav>
+                
+        </div>
+    </header>
+    <h1>Főoldal</h1>
+
+    <h2>Üdvözöllek <%= name %></h2>
+    <script src="./Fooldal.js"></script>
+    <img src="/images/Logó 1.png"  width="350" height="auto" alt="Logo" id="Logo">
+    <div id="kacsa">
+        <img src="/images/kacsa.gif" alt="Kacsa" id="Kacsa">
+    </div>
+</body>
+</html>
